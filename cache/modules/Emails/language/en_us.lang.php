@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:19:31
+// created: 2021-03-05 17:36:42
 $mod_strings = array (
   'LBL_FW' => 'FW:',
   'LBL_RE' => 'RE:',
@@ -324,7 +324,7 @@ $mod_strings = array (
   'LBL_COMPOSEEMAIL' => 'Compose Email',
   'LBL_EMAILSETTINGS' => 'Email Settings',
   'LBL_CONTACTS_SUBPANEL_TITLE_SNIP' => 'Email Contacts',
-  'LBL_EMAILS_MEETINGS_REL' => 'Emails:Meetings',
+  'LBL_EMAILS_MEETINGS_REL' => 'Emails:Sessoes',
   'LBL_DATE_CREATED' => 'Date Created',
   'LBL_DATE_MODIFIED' => 'Date Modified',
 );

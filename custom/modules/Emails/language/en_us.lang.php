@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:33
+// created: 2021-03-05 17:33:55
 $mod_strings = array (
   'LBL_EMAILS_ACCOUNTS_REL' => 'Emails:Empresas',
   'LBL_EMAILS_CONTACTS_REL' => 'Emails:Contatos',
@@ -10,4 +10,5 @@ $mod_strings = array (
   'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Empresas',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
   'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Servicos',
+  'LBL_EMAILS_MEETINGS_REL' => 'Emails:Sessoes',
 );

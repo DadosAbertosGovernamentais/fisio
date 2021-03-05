@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:34
+// created: 2021-03-05 17:33:54
 $mod_strings = array (
   'LNK_NEW_ACCOUNT' => 'Create Empresa',
   'LNK_ACCOUNT_LIST' => 'View Empresas',
@@ -22,4 +22,5 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'My Empresas',
   'LBL_PARENT_ACCOUNT_ID' => 'Parent Empresa ID',
   'LBL_MODULE_NAME' => 'Empresas',
+  'LBL_MEETINGS' => 'Sessoes',
 );

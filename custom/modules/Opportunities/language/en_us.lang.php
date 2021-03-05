@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:04:15
+// created: 2021-03-05 17:33:54
 $mod_strings = array (
   'LNK_NEW_OPPORTUNITY' => 'Create Servico',
   'LNK_OPPORTUNITY_LIST' => 'View Servicos',
@@ -21,4 +21,5 @@ $mod_strings = array (
   'LBL_AMOUNT' => 'Servico Amount:',
   'LBL_OPPORTUNITY_NAME' => 'Servico Name:',
   'LBL_MODULE_NAME' => 'Servicos',
+  'LBL_MEETINGS' => 'Sessoes',
 );

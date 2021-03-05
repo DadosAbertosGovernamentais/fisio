@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:19:30
+// created: 2021-03-05 17:36:41
 $mod_strings = array (
   'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
@@ -72,4 +72,5 @@ $mod_strings = array (
   'LBL_OPPORTUNITIES' => 'Servicos',
   'LBL_CALLS' => 'Ligacoes',
   'LBL_TASKS' => 'Tarefas',
+  'LBL_MEETINGS' => 'Sessoes',
 );

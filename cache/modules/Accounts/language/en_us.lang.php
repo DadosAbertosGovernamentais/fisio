@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:19:27
+// created: 2021-03-05 17:36:40
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -157,4 +157,5 @@ $mod_strings = array (
   'LBL_CALLS' => 'Ligacoes',
   'LBL_CONTACTS' => 'Contatos',
   'LBL_OPPORTUNITY' => 'Servico',
+  'LBL_MEETINGS' => 'Sessoes',
 );

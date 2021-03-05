@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:35
+// created: 2021-03-05 17:33:53
 $mod_strings = array (
   'LBL_ACCOUNT_NAME' => 'Empresa Name:',
   'LBL_ACCOUNT_ID' => 'Empresa ID',
@@ -11,4 +11,5 @@ $mod_strings = array (
   'LBL_ACCOUNT' => 'Empresa',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
   'LBL_LIST_ACCOUNT_NAME' => 'Empresa Name',
+  'LBL_MEETINGS' => 'Sessoes',
 );

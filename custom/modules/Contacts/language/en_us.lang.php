@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:35
+// created: 2021-03-05 17:33:54
 $mod_strings = array (
   'LNK_NEW_CONTACT' => 'Create Contato',
   'LNK_CONTACT_LIST' => 'View Contatos',
@@ -26,4 +26,5 @@ $mod_strings = array (
   'LBL_LIST_ACCOUNT_NAME' => 'Empresa Name',
   'LBL_OPPORTUNITY_ROLE' => 'Servico Role',
   'LBL_OPPORTUNITY_ROLE_ID' => 'Servico Role ID:',
+  'LBL_MEETINGS' => 'Sessoes',
 );

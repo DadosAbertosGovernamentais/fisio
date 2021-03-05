@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:36
+// created: 2021-03-05 17:33:54
 $mod_strings = array (
   'LNK_NEW_NOTE' => 'Create Anotacao or Attachment',
   'LNK_NOTE_LIST' => 'View Anotacoes',
@@ -19,4 +19,5 @@ $mod_strings = array (
   'LBL_OPPORTUNITY_ID' => 'Servico ID:',
   'LBL_NOTE_STATUS' => 'Anotacao',
   'LBL_MODULE_NAME' => 'Anotacoes',
+  'LBL_MEETINGS' => 'Sessoes',
 );
