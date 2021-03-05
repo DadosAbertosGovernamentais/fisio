@@ -1,0 +1,25 @@
+<?php
+// created: 2021-03-05 15:44:35
+$mod_strings = array (
+  'LBL_REPORTS_TO' => 'Reports To:',
+  'LBL_CONTACTS' => 'Contatos',
+  'LBL_ACCOUNT' => 'Empresa',
+  'LBL_LEADS' => 'Leads',
+  'LBL_OPPORTUNITIES' => 'Servicos',
+  'LBL_TASKS' => 'Tarefas',
+  'LBL_NOTES' => 'Anotacoes',
+  'LBL_CALLS' => 'Ligacoes',
+  'LBL_CONTACT_ID' => 'Contato ID',
+  'LBL_CONVERTED_CONTACT' => 'Converted Contato:',
+  'LBL_ACCOUNT_DESCRIPTION' => 'Empresa Description',
+  'LBL_ACCOUNT_ID' => 'Empresa ID',
+  'LBL_ACCOUNT_NAME' => 'Empresa Name:',
+  'LBL_LIST_ACCOUNT_NAME' => 'Empresa Name',
+  'LBL_CONVERTED_ACCOUNT' => 'Converted Empresa:',
+  'LNK_SELECT_ACCOUNTS' => ' OR Select Empresa',
+  'LNK_NEW_ACCOUNT' => 'Create Empresa',
+  'LBL_OPPORTUNITY_AMOUNT' => 'Servico Amount:',
+  'LBL_OPPORTUNITY_ID' => 'Servico ID',
+  'LBL_OPPORTUNITY_NAME' => 'Servico Name:',
+  'LBL_CONVERTED_OPP' => 'Converted Servico:',
+);

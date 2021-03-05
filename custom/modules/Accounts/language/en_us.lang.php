@@ -1,0 +1,25 @@
+<?php
+// created: 2021-03-05 15:44:34
+$mod_strings = array (
+  'LNK_NEW_ACCOUNT' => 'Create Empresa',
+  'LNK_ACCOUNT_LIST' => 'View Empresas',
+  'LNK_IMPORT_ACCOUNTS' => 'Import Empresas',
+  'MSG_SHOW_DUPLICATES' => 'The empresa record you are about to create might be a duplicate of an empresa record that already exists. Empresa records containing similar names are listed below.Click Save to continue creating this new empresa, or click Cancel to return to the module without creating the empresa.',
+  'LBL_SAVE_ACCOUNT' => 'Save Empresa',
+  'LBL_LIST_FORM_TITLE' => 'Empresa List',
+  'LBL_SEARCH_FORM_TITLE' => 'Empresa Search',
+  'LBL_MEMBER_OF' => 'Member of:',
+  'LBL_MEMBERS' => 'Members',
+  'LBL_TASKS' => 'Tarefas',
+  'LBL_NOTES' => 'Anotacoes',
+  'LBL_CALLS' => 'Ligacoes',
+  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentoos',
+  'LBL_CONTACTS' => 'Contatos',
+  'LBL_OPPORTUNITY' => 'Servico',
+  'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
+  'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Servicos',
+  'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Member Organizations',
+  'LBL_HOMEPAGE_TITLE' => 'My Empresas',
+  'LBL_PARENT_ACCOUNT_ID' => 'Parent Empresa ID',
+  'LBL_MODULE_NAME' => 'Empresas',
+);
