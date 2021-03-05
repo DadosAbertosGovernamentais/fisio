@@ -40,7 +40,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 global $current_user;
 
-$dashletData['MyOpportunitiesDashlet']['searchFields'] = array('date_entered'     => array('default' => ''),
+$dashletData['MyOpportunitiesDashlet']['searchFields'] = array('date_closed'     => array('default' => ''),
                                                                'opportunity_type' => array('default' => ''),
                                                                'sales_stage'      => array('default' => 
                                                                     array('Prospecting', 'Qualification', 'Needs Analysis', 'Value Proposition', 'Id. Decision Makers', 'Perception Analysis', 'Proposal/Price Quote', 'Negotiation/Review')),
