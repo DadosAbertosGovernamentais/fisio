@@ -1,80 +1,82 @@
 <?php
-$viewdefs ['Opportunities'] = 
-array (
-  'DetailView' => 
+// created: 2021-03-05 17:17:09
+$viewdefs = array (
+  'Opportunities' => 
   array (
-    'templateMeta' => 
+    'DetailView' => 
     array (
-      'form' => 
+      'templateMeta' => 
       array (
-        'buttons' => 
+        'form' => 
         array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
+          'buttons' => 
+          array (
+            0 => 'EDIT',
+            1 => 'DUPLICATE',
+            2 => 'DELETE',
+            3 => 'FIND_DUPLICATES',
+          ),
         ),
-      ),
-      'maxColumns' => '2',
-      'widths' => 
-      array (
-        0 => 
-        array (
-          'label' => '10',
-          'field' => '30',
-        ),
-        1 => 
-        array (
-          'label' => '10',
-          'field' => '30',
-        ),
-      ),
-      'useTabs' => false,
-      'tabDefs' => 
-      array (
-        'DEFAULT' => 
-        array (
-          'newTab' => false,
-          'panelDefault' => 'expanded',
-        ),
-      ),
-      'syncDetailEditViews' => true,
-    ),
-    'panels' => 
-    array (
-      'default' => 
-      array (
-        0 => 
-        array (
-          0 => 'name',
-        ),
-        1 => 
+        'maxColumns' => '2',
+        'widths' => 
         array (
           0 => 
           array (
-            'name' => 'contacts_opportunities_1_name',
+            'label' => '10',
+            'field' => '30',
+          ),
+          1 => 
+          array (
+            'label' => '10',
+            'field' => '30',
           ),
         ),
-        2 => 
+        'useTabs' => false,
+        'tabDefs' => 
+        array (
+          'DEFAULT' => 
+          array (
+            'newTab' => false,
+            'panelDefault' => 'expanded',
+          ),
+        ),
+        'syncDetailEditViews' => true,
+      ),
+      'panels' => 
+      array (
+        'default' => 
         array (
           0 => 
           array (
-            'name' => 'amount',
-            'label' => '{$MOD.LBL_AMOUNT} ({$CURRENCY})',
+            0 => 'name',
           ),
-          1 => 'opportunity_type',
-        ),
-        3 => 
-        array (
-          0 => 
+          1 => 
           array (
-            'name' => 'description',
-            'nl2br' => true,
+            0 => 
+            array (
+              'name' => 'contacts_opportunities_1_name',
+            ),
           ),
-          1 => 'date_closed',
+          2 => 
+          array (
+            0 => 
+            array (
+              'name' => 'amount',
+              'label' => '{$MOD.LBL_AMOUNT} ({$CURRENCY})',
+            ),
+            1 => 'opportunity_type',
+          ),
+          3 => 
+          array (
+            0 => 
+            array (
+              'name' => 'description',
+              'nl2br' => true,
+            ),
+            1 => 'date_closed',
+          ),
         ),
       ),
     ),
   ),
 );
-?>

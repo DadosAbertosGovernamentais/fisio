@@ -6,7 +6,6 @@ $hook_array = Array();
 // position, file, function 
 $hook_array['before_save'] = Array(); 
 $hook_array['after_ui_frame'] = Array(); 
-$hook_array['after_ui_frame'][] = Array(1, 'Opportunities InsideView frame', 'modules/Connectors/connectors/sources/ext/rest/insideview/InsideViewLogicHook.php','InsideViewLogicHook', 'showFrame'); 
 
 
 
