@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:35
+// created: 2021-03-05 18:15:17
 $mod_strings = array (
   'LNK_NEW_DOCUMENT' => 'Create Documento',
   'LNK_DOCUMENT_LIST' => 'View Documentos',
@@ -19,4 +19,5 @@ $mod_strings = array (
   'LBL_NAME' => 'Documento Name',
   'LBL_TEMPLATE_TYPE' => 'Documento Type',
   'LBL_MODULE_NAME' => 'Documentos',
+  'LBL_FILENAME' => 'Documento',
 );

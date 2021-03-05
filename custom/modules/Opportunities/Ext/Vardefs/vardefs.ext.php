@@ -40,4 +40,12 @@ $dictionary["Opportunity"]["fields"]["contacts_opportunities_1contacts_ida"] = a
   'vname' => 'LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE',
 );
 
+
+ // created: 2021-03-05 18:00:20
+$dictionary['Opportunity']['fields']['sales_stage']['default']='proposta';
+$dictionary['Opportunity']['fields']['sales_stage']['len']=100;
+$dictionary['Opportunity']['fields']['sales_stage']['comments']='';
+$dictionary['Opportunity']['fields']['sales_stage']['merge_filter']='disabled';
+
+ 
 ?>

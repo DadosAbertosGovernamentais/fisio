@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:33:59
+// created: 2021-03-05 18:10:41
 $mod_strings = array (
   'LBL_CONTACT_NAME' => 'Contato:',
   'LBL_CONTACTS' => 'Contatos',
@@ -19,4 +19,11 @@ $mod_strings = array (
   'LBL_TYPE' => 'Sessao Type',
   'LBL_URL' => 'Start/Join Sessao',
   'LBL_MODULE_NAME' => 'Sessoes',
+  'LBL_SUBJECT' => 'Nome',
+  'LBL_DATE' => 'Inicio',
+  'LBL_DATE_END' => 'Fim',
+  'LBL_DESCRIPTION' => 'Observacoes',
+  'LBL_DURATION' => 'Duracao',
+  'LBL_REMINDER' => 'Lembrete',
+  'LBL_STATUS' => 'Status:',
 );

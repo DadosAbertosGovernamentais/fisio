@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:36:43
+// created: 2021-03-05 18:15:38
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -49,7 +49,7 @@ $mod_strings = array (
   'LBL_HOMEPAGE_TITLE' => 'My Documentos',
   'LBL_NEW_FORM_TITLE' => 'New Document',
   'LBL_DOC_NAME' => 'Documento Name:',
-  'LBL_FILENAME' => 'File Name:',
+  'LBL_FILENAME' => 'Documento',
   'LBL_LIST_FILENAME' => 'File:',
   'LBL_DOC_VERSION' => 'Revision:',
   'LBL_FILE_UPLOAD' => 'File:',

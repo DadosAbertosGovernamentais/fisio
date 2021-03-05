@@ -399,12 +399,14 @@
       'vname' => 'LBL_SALES_STAGE',
       'type' => 'enum',
       'options' => 'sales_stage_dom',
-      'len' => '255',
+      'len' => 100,
       'audited' => true,
       'comment' => 'Indication of progression towards closure',
-      'merge_filter' => 'enabled',
+      'merge_filter' => 'disabled',
       'importable' => 'required',
       'required' => true,
+      'default' => 'proposta',
+      'comments' => '',
     ),
     'probability' => 
     array (

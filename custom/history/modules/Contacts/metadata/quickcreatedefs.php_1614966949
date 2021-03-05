@@ -1,7 +1,7 @@
 <?php
 $viewdefs ['Contacts'] = 
 array (
-  'EditView' => 
+  'QuickCreate' => 
   array (
     'templateMeta' => 
     array (
@@ -14,6 +14,8 @@ array (
           2 => '<input type="hidden" name="bug_id" value="{$smarty.request.bug_id}">',
           3 => '<input type="hidden" name="email_id" value="{$smarty.request.email_id}">',
           4 => '<input type="hidden" name="inbound_email_id" value="{$smarty.request.inbound_email_id}">',
+          5 => '{if !empty($smarty.request.contact_id)}<input type="hidden" name="reports_to_id" value="{$smarty.request.contact_id}">{/if}',
+          6 => '{if !empty($smarty.request.contact_name)}<input type="hidden" name="report_to_name" value="{$smarty.request.contact_name}">{/if}',
         ),
       ),
       'maxColumns' => '2',
@@ -33,28 +35,31 @@ array (
       'useTabs' => false,
       'tabDefs' => 
       array (
-        'LBL_CONTACT_INFORMATION' => 
+        'DEFAULT' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
-      'lbl_contact_information' => 
+      'default' => 
       array (
         0 => 
         array (
           0 => 
           array (
-            'name' => 'first_name',
-            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name"  id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
+            'name' => 'last_name',
+            'displayParams' => 
+            array (
+              'required' => true,
+            ),
           ),
           1 => 
           array (
-            'name' => 'last_name',
+            'name' => 'first_name',
+            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name" id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
           ),
         ),
         1 => 
@@ -62,53 +67,17 @@ array (
           0 => 
           array (
             'name' => 'email1',
-            'studio' => 'false',
-            'label' => 'LBL_EMAIL_ADDRESS',
           ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'phone_mobile',
-            'comment' => 'Mobile phone number of the contact',
-            'label' => 'LBL_MOBILE_PHONE',
-          ),
-          1 => 
-          array (
             'name' => 'phone_work',
-            'comment' => 'Work phone number of the contact',
-            'label' => 'LBL_OFFICE_PHONE',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'primary_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'primary',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
-            ),
           ),
           1 => 
           array (
-            'name' => 'primary_address_city',
-            'comment' => 'City for primary address',
-            'label' => 'LBL_PRIMARY_ADDRESS_CITY',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_DESCRIPTION',
+            'name' => 'phone_mobile',
           ),
         ),
       ),

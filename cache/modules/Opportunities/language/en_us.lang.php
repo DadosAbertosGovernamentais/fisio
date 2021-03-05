@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 17:36:41
+// created: 2021-03-05 18:03:25
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -9,7 +9,7 @@ $mod_strings = array (
   'LBL_MODIFIED_NAME' => 'Modified by User Name',
   'LBL_CREATED' => 'Created By',
   'LBL_CREATED_ID' => 'Created by ID',
-  'LBL_DESCRIPTION' => 'Description:',
+  'LBL_DESCRIPTION' => 'Descricao',
   'LBL_DELETED' => 'Deleted',
   'LBL_NAME' => 'Opportunity Name',
   'LBL_CREATED_USER' => 'Created User',
@@ -24,7 +24,7 @@ $mod_strings = array (
   'LBL_SEARCH_FORM_TITLE' => 'Servico Search',
   'LBL_VIEW_FORM_TITLE' => 'Opportunity View',
   'LBL_LIST_FORM_TITLE' => 'Servico List',
-  'LBL_OPPORTUNITY_NAME' => 'Servico Name:',
+  'LBL_OPPORTUNITY_NAME' => 'Nome do Servico',
   'LBL_OPPORTUNITY' => 'Opportunity:',
   'LBL_INVITEE' => 'Contacts',
   'LBL_CURRENCIES' => 'Currencies',
@@ -68,15 +68,15 @@ $mod_strings = array (
   'UPDATE_MERGE' => 'Merge Currencies',
   'UPDATE_MERGE_TXT' => 'Merge multiple currencies into a single currency. If there are multiple currency records for the same currency, you merge them together. This will also merge the currencies for all other modules.',
   'LBL_ACCOUNT_NAME' => 'Empresa Name:',
-  'LBL_AMOUNT' => 'Servico Amount:',
+  'LBL_AMOUNT' => 'Valor',
   'LBL_AMOUNT_USDOLLAR' => 'Amount:',
   'LBL_CURRENCY' => 'Currency:',
-  'LBL_DATE_CLOSED' => 'Expected Close Date:',
+  'LBL_DATE_CLOSED' => 'Vencimento',
   'LBL_TYPE' => 'Type:',
   'LBL_CAMPAIGN' => 'Campaign:',
   'LBL_NEXT_STEP' => 'Next Step:',
   'LBL_LEAD_SOURCE' => 'Lead Source:',
-  'LBL_SALES_STAGE' => 'Sales Stage:',
+  'LBL_SALES_STAGE' => 'Status',
   'LBL_PROBABILITY' => 'Probability (%):',
   'LBL_DUPLICATE' => 'Possible Duplicate Opportunity',
   'MSG_DUPLICATE' => 'The opportunity record you are about to create might be a duplicate of a opportunity record that already exists. Opportunity records containing similar names are listed below.<br>Click Save to continue creating this new opportunity, or click Cancel to return to the module without creating the opportunity.',
@@ -118,5 +118,5 @@ $mod_strings = array (
   'LBL_NOTES' => 'Anotacoes',
   'LBL_CALLS' => 'Ligacoes',
   'LBL_MEETINGS' => 'Sessoes',
-  'LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE' => 'Contatos',
+  'LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE' => 'Contato',
 );

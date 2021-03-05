@@ -1,20 +1,10 @@
 <?php
 $viewdefs ['Opportunities'] = 
 array (
-  'DetailView' => 
+  'EditView' => 
   array (
     'templateMeta' => 
     array (
-      'form' => 
-      array (
-        'buttons' => 
-        array (
-          0 => 'EDIT',
-          1 => 'DUPLICATE',
-          2 => 'DELETE',
-          3 => 'FIND_DUPLICATES',
-        ),
-      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -29,6 +19,7 @@ array (
           'field' => '30',
         ),
       ),
+      'javascript' => '{$PROBABILITY_SCRIPT}',
       'useTabs' => false,
       'tabDefs' => 
       array (
@@ -46,7 +37,10 @@ array (
       array (
         0 => 
         array (
-          0 => 'name',
+          0 => 
+          array (
+            'name' => 'name',
+          ),
         ),
         1 => 
         array (
@@ -54,23 +48,21 @@ array (
           array (
             'name' => 'contacts_opportunities_1_name',
           ),
-          1 => 'date_closed',
         ),
         2 => 
         array (
           0 => 
           array (
             'name' => 'amount',
-            'label' => '{$MOD.LBL_AMOUNT} ({$CURRENCY})',
           ),
-          1 => 'sales_stage',
+          1 => 'opportunity_type',
         ),
         3 => 
         array (
-          0 => 
+          0 => 'description',
+          1 => 
           array (
-            'name' => 'description',
-            'nl2br' => true,
+            'name' => 'date_closed',
           ),
         ),
       ),

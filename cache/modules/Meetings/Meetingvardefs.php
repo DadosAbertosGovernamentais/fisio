@@ -355,6 +355,8 @@
       'options' => 'meeting_status_dom',
       'comment' => 'Meeting status (ex: Planned, Held, Not held)',
       'default' => 'Planned',
+      'comments' => 'Meeting status (ex: Planned, Held, Not held)',
+      'merge_filter' => 'disabled',
     ),
     'type' => 
     array (
