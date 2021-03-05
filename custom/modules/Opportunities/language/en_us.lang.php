@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 15:44:36
+// created: 2021-03-05 17:04:15
 $mod_strings = array (
   'LNK_NEW_OPPORTUNITY' => 'Create Servico',
   'LNK_OPPORTUNITY_LIST' => 'View Servicos',
@@ -12,7 +12,7 @@ $mod_strings = array (
   'LBL_TASKS' => 'Tarefas',
   'LBL_NOTES' => 'Anotacoes',
   'LBL_CALLS' => 'Ligacoes',
-  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentoos',
+  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
   'LBL_MY_CLOSED_OPPORTUNITIES' => 'My Closed Servicos',
   'LBL_TOP_OPPORTUNITIES' => 'My Top Open Servicos',

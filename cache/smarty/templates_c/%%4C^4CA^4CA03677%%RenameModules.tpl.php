@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2021-03-05 15:41:45
+<?php /* Smarty version 2.6.11, created on 2021-03-05 16:54:46
          compiled from modules/Studio/wizards/RenameModules.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'html_options', 'modules/Studio/wizards/RenameModules.tpl', 93, false),array('function', 'sugar_help', 'modules/Studio/wizards/RenameModules.tpl', 94, false),array('function', 'counter', 'modules/Studio/wizards/RenameModules.tpl', 113, false),array('function', 'sugar_getscript', 'modules/Studio/wizards/RenameModules.tpl', 148, false),array('modifier', 'default', 'modules/Studio/wizards/RenameModules.tpl', 133, false),)), $this); ?>

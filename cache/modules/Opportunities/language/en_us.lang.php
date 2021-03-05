@@ -1,5 +1,5 @@
 <?php
-// created: 2021-03-05 16:32:19
+// created: 2021-03-05 17:04:15
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created',
@@ -93,7 +93,7 @@ $mod_strings = array (
   'LBL_RAW_AMOUNT' => 'Raw Amount',
   'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
   'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
-  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentoos',
+  'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
   'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
   'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
   'LBL_MY_CLOSED_OPPORTUNITIES' => 'My Closed Servicos',
@@ -117,4 +117,5 @@ $mod_strings = array (
   'LBL_TASKS' => 'Tarefas',
   'LBL_NOTES' => 'Anotacoes',
   'LBL_CALLS' => 'Ligacoes',
+  'LBL_CONTACTS_OPPORTUNITIES_1_FROM_CONTACTS_TITLE' => 'Contatos',
 );

@@ -1052,6 +1052,17 @@
       'comment' => 'Synch to outlook?  (Meta-Data only)',
       'studio' => 'true',
     ),
+    'contacts_opportunities_1' => 
+    array (
+      'name' => 'contacts_opportunities_1',
+      'type' => 'link',
+      'relationship' => 'contacts_opportunities_1',
+      'source' => 'non-db',
+      'module' => 'Opportunities',
+      'bean_name' => 'Opportunity',
+      'side' => 'right',
+      'vname' => 'LBL_CONTACTS_OPPORTUNITIES_1_FROM_OPPORTUNITIES_TITLE',
+    ),
   ),
   'indices' => 
   array (

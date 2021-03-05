@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2021-03-05 15:45:25
+<?php /* Smarty version 2.6.11, created on 2021-03-05 17:02:36
          compiled from modules/Administration/templates/ConfigureTabs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_getjspath', 'modules/Administration/templates/ConfigureTabs.tpl', 38, false),array('function', 'sugar_help', 'modules/Administration/templates/ConfigureTabs.tpl', 69, false),array('function', 'sugar_translate', 'modules/Administration/templates/ConfigureTabs.tpl', 113, false),)), $this); ?>
