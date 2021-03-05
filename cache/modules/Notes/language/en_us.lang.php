@@ -1,6 +1,8 @@
 <?php
-// created: 2021-03-05 15:44:36
+// created: 2021-03-05 16:32:21
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+  'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
   'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
   'LBL_ACCOUNT_ID' => 'Empresa ID:',
   'LBL_CASE_ID' => 'Case ID:',
